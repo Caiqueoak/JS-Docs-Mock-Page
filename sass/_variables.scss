@@ -1,0 +1,11 @@
+$text-color: rgb(39, 39, 39);
+
+* {
+    box-sizing: border-box;
+}
+
+@mixin centered-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
